@@ -1,0 +1,4 @@
+      这段表头的优化题目很奇怪，不太明白这题是什么意思，对于表头的优化我只能想到封装个方法去添加表头这样。
+	function genPlanColumn  （key,title,extend）{
+		return { ...extend,title,dataIndex:key }
+	}
